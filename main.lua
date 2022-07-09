@@ -1,5 +1,5 @@
 function love.load()
-    love.window.setMode(800, 600)
+    love.window.setMode(800, 600, {resizable = true})
 end
 
 function love.update(dt)
